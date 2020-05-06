@@ -1,0 +1,312 @@
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 476px) {
+/* font-family: 'Lato', sans-serif;*/ 
+/* #7376ff */
+.navbar {
+	background: #000;
+}
+.navbar-toggler {
+	border: 1px solid #fff;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}	
+.navbar-brand {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.25em;
+	color: #fff;
+}
+		
+.navbar-brand:hover {
+	font-family: 'Lato', sans-serif;
+	color: #7376ff;
+}	
+.nav-link {
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	color: #fff;
+}
+.nav-link:hover {
+	color: #7376ff;
+}
+a:link {
+	text-decoration: none;
+}
+/*Header Area*/
+.header {
+	display: grid;
+	margin: 5%;
+}
+
+.header-left {
+	display: grid;
+	align-content: center;
+}
+.header-right {
+	display: grid;
+	align-content: center;
+}
+	
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 2.5em;
+	font-weight: 700;
+}
+.btn-primary {
+	display: inline;
+	width: 50%;
+	background-color: #000;
+	border-radius: 20px;
+	margin-top: 20px;
+	border: 1px solid #000;
+}
+.btn-primary:hover {
+	background-color: #7376ff;
+	border: 1px solid #7376ff;
+	text-decoration: none;
+}	
+	
+.btn-primary p {
+	font-size: 0.55em;
+	margin: 0;
+}
+.header-right {
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+	margin: 20px;
+}
+
+/* After Header*/
+/*OUR SERVICES*/
+.section-header {
+	font-size: 1.65em;
+	color: #7376ff;
+}
+.hr-style {
+	border: 2px solid #7376ff;
+	border-radius: 5px;
+}	
+.hr-style-2 {
+	border: 3px solid #254EF4;
+	width: 70px;
+	margin-left: 0;
+}	
+.hr-style-3 {
+	border: 3px solid #254EF4;
+	width: 100px;
+	margin-left: 0;
+}
+.hr-style-4 {
+	border: 3px solid #254EF4;
+	width: 190px;
+	margin-left: 0;
+}
+	
+/* Title */	
+h3 {
+font-size: 1em;
+font-weight: 300;
+opacity: 0.6;
+}
+	
+/* Sub Title*/	
+h2 {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	font-weight: 500;
+	margin-top: 20px;
+}
+p {
+	font-size: 1em;
+}	
+
+/*Image Styles*/
+	
+.main-content-image {
+	box-shadow: 5px 5px #7376ff;
+}	
+	
+/* Main Content Buttons Styles */
+.btn-info {
+	background-color: #7376ff;
+	border-radius: 20px;
+	border: 1px solid #7376ff;
+}
+.btn-info:hover {
+	background-color: #000;
+	border: 1px solid #000;
+}	
+
+/* About AwesomeAgency*/
+.about-list {
+	list-style-image: url('star-icon-07.svg');
+}
+/* Review Styles */	
+.review-style {
+	width: 150px;
+	height: 150px;
+}
+	
+/* Contact Form Area */		
+.contact {
+	background-color: #7376ff;
+}
+.btn-success {
+	background-color: #000;
+	border-radius: 20px;
+	border: 1px solid #7376ff;
+}
+.btn-success:hover {
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #000;
+}
+
+
+/* Social Media Icons */		
+.social-media {
+	display: flex;
+	width: 100%;
+	list-style-type: none;
+	justify-content: center;
+}
+.social-media li img{
+	width: 30px;
+	height: 30px;
+}
+
+/* Footer Footer Social Media Icons */	
+footer {
+	background: #000;
+}
+.footer-icons img {
+	width: 30px;
+	height: 30px;
+	padding: 1px;
+	border-radius: 20px;
+}
+
+.list-unstyled li a{
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+}
+.page-footer h2 a {
+	color: #fff;
+}
+.page-footer h2 a:hover {
+	color: #7376ff;
+}	
+	
+.page-footer a:hover {
+	color: #7376ff;
+}	
+}	
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+/*Header Area*/
+.header {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+	grid-gap: 20px;
+	align-content: center;
+}
+
+.header-left {
+	display: grid;
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+	align-content: center;
+	padding-left: 20px;
+}	
+	
+h1 {
+font-size: 3.25em;
+}
+
+.btn-primary p {
+	font-size: 0.85em;
+}
+
+/* After Header*/
+/*OUR SERVICES*/
+.section-header {
+	font-size: 2em;
+	color: #7376ff;
+}	
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+.header {
+grid-gap: 30px;
+margin: 5%;
+}		
+	
+	
+/* Navbar*/
+.navbar {
+	height: 100px;
+	}
+.navbar-brand {
+	font-size: 2em;
+}	
+.nav-item .nav-link  {
+	font-size: 1.25em;
+}
+
+h1 {
+font-size: 4em;
+}
+.btn-primary p {
+	font-size: 1.15em;
+}
+
+/* After Header*/
+/*OUR SERVICES*/
+.section-header {
+	font-size: 2.75em;
+	color: #7376ff;
+}	
+
+/* Main Content P */	
+.main-content-image {
+	box-shadow: 10px 10px #7376ff;
+}	
+p {
+	font-size: 1.15em;
+}	
+		
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+.header {
+grid-gap: 30px;
+margin: 10%;
+}	
+	
+h1 {
+font-size: 5em;
+}
+.btn-primary p {
+	font-size: 1.25em;
+}
+	
+/* After Header*/
+/*OUR SERVICES*/
+.section-header {
+	font-size: 3em;
+	color: #7376ff;
+}	
+	
+}
